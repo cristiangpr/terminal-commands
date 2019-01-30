@@ -1,0 +1,22 @@
+Questions
+
+1. How do you import a module?
+
+A: By using the require function.
+example: const fs = require('fs');
+
+2. What JavaScript statement do you use to export a module?
+
+A: module.exports
+
+Online Research Questions
+
+1. Are there other ways to export a module?
+
+A:
+using exports.function to export individual named functions or objects
+
+2. What are ES6 modules and how do they differ from the module we created in this checkpoint?
+
+A: A single, native module standard was proposed in ES6.
+Everything inside an ES6 module is private by default, and runs in strict mode (there’s no need for 'use strict'). Public variables, functions and classes are exposed using export.
